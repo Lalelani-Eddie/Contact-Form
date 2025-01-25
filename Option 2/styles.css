@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to the top instead of center */
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+    color: #333; /* Default text color */
+    padding: 20px; /* Add padding to prevent cutting off */
+    box-sizing: border-box; /* Include padding in height calculation */
+}
+
+/* Container for the Contact Form */
+.contact-container {
+    background: linear-gradient(145deg, #0a0a23, #1a1a40); /* Dark blue gradient */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #333; /* Darker border for contrast */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+/* Title and Image Container */
+.title-container {
+    display: flex;
+    align-items: center; /* Vertically center the image and title */
+    justify-content: center; /* Horizontally center the content */
+    margin-bottom: 20px;
+}
+
+.title-image {
+    width: 50px; /* Adjust the size of the image */
+    height: 50px; /* Adjust the size of the image */
+    margin-right: 15px; /* Space between the image and the title */
+}
+
+.contact-container h1 {
+    margin: 0; /* Remove default margin */
+    color: #ff6f00; /* Orange color for the heading */
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ff6f00; /* Orange color for labels */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333; /* Dark gray border */
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #262626; /* Slightly lighter dark gray for inputs */
+    color: #ffffff; /* White text for inputs */
+    transition: border-color 0.3s ease;
+    font-family: "Libre Baskerville", serif; /* Use Libre Baskerville */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #ff6f00; /* Orange border on focus */
+    outline: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Submit Button Styling */
+.form-group button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6f00; /* Orange background */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #e65c00; /* Darker orange on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    .contact-container {
+        padding: 20px;
+    }
+
+    .contact-container h1 {
+        font-size: 24px;
+    }
+
+    .title-image {
+        width: 40px; /* Smaller image on mobile */
+        height: 40px; /* Smaller image on mobile */
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .form-group button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

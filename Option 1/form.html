@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Discuss Your Project</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contact-container">
+        <!-- Title and Image Container -->
+        <div class="title-container">
+            <img src="footer_print02_NO_BACKGROUND.png" alt="Discuss Your Project Icon" class="title-image">
+            <h1>Discuss Your Project</h1>
+        </div>
+
+        <!-- Contact Form -->
+        <form id="contactForm" action="" method="POST">
+
+           
+            <!-- Full Name -->
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+            </div>
+
+            <!-- Contact -->
+            <div class="form-group">
+                <label for="contact">Contact</label>
+                <input type="tel" id="contact" name="contact" placeholder="Enter your phone number" required>
+            </div>
+
+            <!-- Company/Organization -->
+            <div class="form-group">
+                <label for="company">Company/Organization</label>
+                <input type="text" id="company" name="company" placeholder="Enter your company/organization name">
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <!-- Discuss Your Project -->
+            <div class="form-group">
+                <label for="projectDetails">Discuss Your Project</label>
+                <textarea id="projectDetails" name="projectDetails" placeholder="Describe your project in detail" rows="5" required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="formHandler.js"></script> <!-- Link to external JS file -->
+</body>
+</html>
