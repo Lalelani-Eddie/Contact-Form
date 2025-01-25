@@ -1,5 +1,3 @@
-Here’s a **README.md** file for your GitHub repository that explains the purpose, setup, and usage of your **Contact Form** project. You can customize it further based on your specific needs.
-
 ---
 
 ```markdown
@@ -45,7 +43,7 @@ You can view a live demo of the project [here](#) (replace with your live URL).
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/contact-form.git
+git clone https://github.com/Lalelani-Eddie/contact-form.git
 cd contact-form
 ```
 
@@ -157,7 +155,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you have any questions or feedback, feel free to reach out:
 
 - **Email**: your-email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
+- **GitHub**: [your-username](https://github.com/Lalelani-Eddie)
 ```
 
 ---
@@ -168,5 +166,3 @@ If you have any questions or feedback, feel free to reach out:
 3. Update the **Contributing** and **Contact** sections as needed.
 
 ---
-
-Let me know if you need further assistance! 🚀
